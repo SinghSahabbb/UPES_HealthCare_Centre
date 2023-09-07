@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REGISTER</title>
+    <style>
+        
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        
+        .container{
+            display: flex;
+            height: 547x;
+            width: 820px;
+            margin: auto;
+            margin-top: 20px;
+            box-shadow: 15px 15px 20px black
+        }
+        
+        .form{
+            display: flex;
+            flex-direction: column;
+            width:50%;
+            align-items: center;
+            background-color: whitesmoke;
+        }
+        .form h2{
+            font-size: 2.1rem;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            margin: 40px;
+            text-align: center;
+        }
+
+        .box{
+            padding: 12px;
+            width: 65%;
+            margin: 15px;
+            border: 1px solid black;
+            outline: none;
+            border-radius: 20px;
+        }
+        .side{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: rgb(56, 113, 117);
+        }
+        .side img{
+            width: 450px;
+            height: 400px;
+            background-color: transparent;
+        }
+        .form img{
+            width: 120px;
+            padding: 10px;
+            margin: 0px;
+        }
+        .form a{
+            text-decoration: none;
+        }
+        #login{
+            color: white;
+            background-color: black;
+            letter-spacing: 1.2px;
+            padding: 10px 18px;
+            border-radius: 10px;
+        }
+        .form #login:hover{
+            background-color: rgb(45, 43, 43);
+        }
+        #f-p{
+            color: royalblue;
+            margin-left: 100px;
+            font-size: smaller;
+        }
+        #f-p:hover{
+            color: rgb(58, 58, 176);
+        }
+        #meme1{
+            text-decoration: none;
+            color: royalblue;
+        }
+        #meme1:hover{
+            color: rgb(58, 58, 176);
+        }
+        .form p{
+            margin-bottom: 30px;
+            margin-top: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <form action="" class="form">
+            <img src="UPES-Logo-without-Tagline.jpg" alt="">
+            <h2>Health Care Center</h2>
+            <h4>REGISTER</h4>
+            <input type="email" name="email" class="box" placeholder="Enter E-mail">
+            <input type="password" name="password" class="box" placeholder="Enter Password">
+            <input type="password" name="password" class="box" placeholder="Confirm Password">
+            <a href="#" id="login">REGISTER</a>
+            <p>Already a Member?<a href="./UHC_LOGIN.html" id="meme1">Login Now</a></p>
+        </form>
+        <div class="side">
+            <img src="Gif2.gif" alt="">
+        </div>
+    </div>
+</body>
+</html>
